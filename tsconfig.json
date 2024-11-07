@@ -7,6 +7,9 @@
     "moduleResolution": "Bundler",
     "target": "ESNext",
     "types": ["react/experimental", "react-dom/experimental", "node"],
+    "paths": {
+      "@/db/*": ["./db/*"]
+    }
   },
-  "include": ["./src/"],
+  "include": ["./src/", "./db/"]
 }

@@ -10,9 +10,7 @@ export default function Layout({ children }: LayoutProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
       </head>
-      <body>
-        <main className="mx-auto max-w-7xl px-4 py-8">{children}</main>
-      </body>
+      <body>{children}</body>
 
       {/* This component is needed to start Twofold */}
       <TwofoldFramework />
